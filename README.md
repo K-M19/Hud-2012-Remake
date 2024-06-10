@@ -17,7 +17,7 @@ You can Customize the interface through "hudlayout.res" folder in the following 
 - **Operating Systems**: (Windows and Linux)
 
 ## Screenshots
-Screenshots: [Full Album](https://imgur.com/a/V0LVY94)
+Screenshots: [Full Album](https://imgur.com/a/2BX1pYD)
 
 ## Credits
 - **Fix And Upgrade**: Me... YESSSS
