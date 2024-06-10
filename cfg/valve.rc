@@ -1,0 +1,8 @@
+r_decal_cullsize 1
+exec joystick.cfg
+exec autoexec.cfg
+stuffcmds
+startupmenu
+sv_unlockedchapters 99
+alias block_antialias
+wait 5; showconsole; wait; incrementvar mat_antialias -100 100 1; hideconsole; wait 5; incrementvar mat_antialias -100 100 -1

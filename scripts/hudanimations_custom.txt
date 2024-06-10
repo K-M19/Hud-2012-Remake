@@ -1,0 +1,30 @@
+//==========================================================================================================================
+// CROSSHAIR ANIMATION
+//--------------------------------------------------------------------------------------------------------------------------
+event HitMarker
+{
+
+	Animate	Hitmarker	Alpha	"255"	Linear 0.0 0.0		// tcHitmarker start
+	Animate	Hitmarker	Alpha	"0"		Linear 0.0 0.95 	// tcHitmarker end
+
+}
+event DamagedPlayer
+{
+	StopEvent 	HitMarker 	0.0
+	RunEvent 	HitMarker	0.01
+}
+
+//==========================================================================================================================
+// SPY DISGUISE
+//--------------------------------------------------------------------------------------------------------------------------
+event HudSpyDisguiseFadeIn
+{
+	RunEvent HudSpyDisguiseChanged		0.0
+	Animate PlayerStatusSpyImage		Alpha		"255"				Linear 0.9	0.1
+}
+
+event HudSpyDisguiseFadeOut
+{
+	RunEvent HudSpyDisguiseChanged		0.0
+	Animate PlayerStatusSpyImage		Alpha		"0"					Linear 0.9	0.1
+}
