@@ -20,6 +20,6 @@ You can Customize the interface through "hudlayout.res" folder in the following 
 Screenshots: [Full Album](https://imgur.com/a/2BX1pYD)
 
 ## Credits
-- **Fix And Upgrade**: Me... YESSSS
+- **Fix And Upgrade**: K-M19(Me... YESSSS SIRRRRrrr)
 - **Old Script UI**: Dmitry Lipovka
 - **Created**: Drooploop
